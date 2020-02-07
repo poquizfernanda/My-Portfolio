@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-align: center;
+    
+    background: url(../img/pic2.jpg) no-repeat;
+    
+}
+.header{
+    background: url(../img/pic2.jpg) no-repeat;
+    font-family: "gabriola";
+    font-size: 40px;
+    color: black;
+    height: 850px;
+    width: auto;
+    background-size: contain;
+    text-align: center;
+}
+.introduction, .myskills{
+    padding: 50px;
+    background: rgba(145, 240, 216, 0.288);
+    color: black;
+    font-size: 20px;
+    font-family: "georgia";
+    font-style: italic;
+    line-height: 30px;
+}
+#footer{
+    background: rgba(230, 240, 145, 0.726);
+    height: 50px;
+}
+#idme{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: black solid 2px;
+}
+a{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#intro-heading, #sub-heading{
+    padding-top:100px;
+}
+.contactme{
+    line-height: 2;
+}
+button{
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    color: rgb(0, 68, 255);
+    background-color: rgb(146, 255, 219);
+    font-weight: bold;
+    font-family: georgia;
+}
